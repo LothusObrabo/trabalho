@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRnutri</title>
+  <link rel="stylesheet" href="styles.css"> <!-- Arquivo CSS para estilização -->
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="inicio">
+    <div class="container">
+      <h1>Bem-vindo ao GRnutri</h1>
+      <p>Conosco você irá obter uma enorme variedade de receitas gostosas e fitness, além do acompanhamento individual e personalizado de nossos nutricionistas.</p>
+      <a href="#contato" class="btn">Entre em Contato</a>
+    </div>
+  </section>
+
+  <section id="sobre">
+    <div class="container">
+      <h2>Sobre Nós</h2>
+      <p>Somos uma equipe de nutricionistas dedicados a ajudar você a alcançar seus objetivos de saúde e bem-estar. Nossos serviços personalizados e informações confiáveis vão te guiar em direção a uma vida mais saudável.</p>
+    </div>
+  </section>
+
+  <section id="servicos">
+    <div class="container">
+      <h2>Nossos Serviços</h2>
+      <div class="servico">
+        <img src="https://i.im.ge/2023/06/27/072MgW.download-10.jpg" alt="Plano de Refeições Personalizado">
+        <h3>Plano de Refeições Personalizado</h3>
+        <p>Desenvolvemos planos de refeições personalizados de acordo com suas necessidades e metas de saúde.</p>
+      </div>
+      <div class="servico">
+        <img src="https://i.im.ge/2023/06/27/0713DF.download-12.jpg" alt="Acompanhamento Nutricional">
+        <h3>Acompanhamento Nutricional</h3>
+        <p>Nossos nutricionistas experientes oferecem acompanhamento personalizado para ajudá-lo a atingir seus objetivos.</p>
+      </div>
+      <div class="servico">
+        <img src="https://i.im.ge/2023/06/27/071TpX.download10.jpg" alt="Educação Alimentar">
+        <h3>Educação Alimentar</h3>
+        <p>Fornecemos informações e dicas úteis sobre nutrição e alimentação saudável para você tomar decisões conscientes.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contato">
+    <div class="container">
+      <h2>Entre em Contato</h2>
+      <p>Preencha o formulário abaixo para entrar em contato conosco.</p>
+      <form id="contatoForm" action="#" method="POST">
+        <input type="text" name="nome" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu E-mail" required>
+        <textarea name="mensagem" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit">Enviar</button>
+      </form>
+      <div id="mensagemSucesso" class="mensagem sucesso">
+        <p>Sua mensagem foi enviada com sucesso!</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2023 GRnutri by Guilherme Rodrigues e Rayssa Morais.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script> <!-- Arquivo JavaScript para interatividade -->
+</body>
+</html>
